@@ -14,6 +14,7 @@ button {
     transition: .3s;
     font-size: 24px;
     cursor: pointer;
+    margin: 0 auto;
 }
 
 button:hover {
@@ -31,6 +32,7 @@ button:hover {
     background: #ecf0f1;
     z-index: 10;
     transition: .5s;
+    overflow: hidden;
 }
 
 .startpagehide {
@@ -78,4 +80,119 @@ button:hover {
 
 .gameshow {
     opacity: 1;
+}
+
+.bar {
+    background: #ecf0f1;
+    box-shadow: 0 0 1px #95a5a6;
+}
+
+.gamelogo {
+    height: 15vh;
+    display: block;
+    margin: 0 auto;
+}
+
+.select {
+    overflow: hidden;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.select h3 {
+    font-weight: 500;
+}
+
+.select img {
+    width: 250px;
+    margin: 30px;
+    display: inline-block;
+    border-radius: 50%;
+    box-shadow: 0 0 8px #2c3e50;
+}
+
+@media screen and (max-width: 700px) {
+    .select img {
+        width: 200px;
+    }
+}
+
+.scores {
+    display: flex;
+    justify-content: space-between;
+}
+
+.scoreHuman {
+    display: block;
+    color: #fff;
+    background: #c20303;
+    margin-top: 20px;
+    padding: 10px 60px;
+    box-shadow: 0 0 5px #bdc3c7;
+}
+
+@media screen and (max-width: 700px) {
+    .scoreHuman {
+        padding: 10px 40px;
+    }
+}
+
+.scoreHuman p:first-child {
+    font-weight: 600;
+    text-align: center;
+}
+
+.scoreComputer {
+    display: block;
+    color: #fff;
+    background: #c20303;
+    margin-top: 20px;
+    padding: 10px 60px;
+    box-shadow: 0 0 5px #bdc3c7;
+}
+
+@media screen and (max-width: 700px) {
+    .scoreComputer {
+        padding: 10px 40px;
+    }
+}
+
+.scoreComputer p:first-child {
+    font-weight: 600;
+    text-align: center;
+}
+
+.rounds {
+    width: 500px;
+    display: block;
+    border: 3px solid #ecf0f1;
+    margin: 30px auto;
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width: 700px) {
+    .rounds {
+        width: 300px;
+    }
+}
+
+.rounds p {
+    font-weight: 500;
+}
+
+.rounds h2 {
+    text-align: center;
+}
+
+.rounds h2.numbers {
+    display: block;
+    background: #ecf0f1;
+    margin: 0;
+    padding: 20px;
+}
+
+.rounds .choices {
+    display: flex;
+    justify-content: space-around;
 }
