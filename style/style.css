@@ -85,6 +85,7 @@ button:hover {
 .bar {
     background: #ecf0f1;
     box-shadow: 0 0 1px #95a5a6;
+    width: 100%;
 }
 
 .gamelogo {
@@ -110,6 +111,7 @@ button:hover {
     display: inline-block;
     border-radius: 50%;
     box-shadow: 0 0 8px #2c3e50;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 700px) {
@@ -185,7 +187,7 @@ button:hover {
     text-align: center;
 }
 
-.rounds h2.numbers {
+.rounds h2.round {
     display: block;
     background: #ecf0f1;
     margin: 0;
